@@ -17,7 +17,7 @@ The data being used in this case study can be found here: FitBit Fitnexx Tracker
 This data is stored and uploaded in RStudio.  Thirty three eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity,heart rate, and sleep monitoring.  It includes information about daily activity,steps, and heart rate that can be used to explore users habits.
 The data sets contains 18 CSV files organized in log format.  
 Step 3: Process
-Please see .Rhistory process of importing datasets into RStudio as well as cleaning functions.
+Please see bellabeat_case_study_2.R process of importing datasets into RStudio as well as cleaning functions.
 Step 4: Analyze
 In this step of analyzing there are 33 participants in the activity,calories, and intensities datasets, 24 in the sleep dataset, and only 8 in the weight dataset. Since there are only 8 participants in the weight dataset means that more data would be needed to make a strong reccommendation or conclusion. There are no significant changes in weight coming from these 8 participants and decided to not use dataset further. 
 Observations made from summaries:
@@ -29,6 +29,8 @@ Observations made from summaries:
 Merged Data from sleep and activity for visualizations.
 Step 5: Share
 Created scatter plots to illistrate Total Steps vs. Calories, Total time asleep vs Total time in bed,Sleep Duration and Sedentary Time.  The scatter chart linked a correlation between steps taken and calories burned. The participants that produced more steps burned more calories.  The was also a correlation between SedentaryMinutes and TotalMinutesAsleep which means that the less active a participant is, the less sleep they tend to get. 
+
+
 Step 6: Act
 After analyzing the FitBit Fitness Tracker data, the recommendations for Bellabeat marketing strategy based on trends in smart device usage.
 1. The average number of steps is well below the suggested average of 8,000 steps per day by the CDC.  Perhaps words of encouragement when steps are almost there and when made.
